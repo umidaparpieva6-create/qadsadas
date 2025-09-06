@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+}
+
+.uzb {
+    font-size: 30px;
+}
+
+.login {
+    border-radius: 50px;
+    width: 650px;
+    height: 800px;
+    border: 1px solid rgba(128, 128, 128, 0.71);
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.offer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.offer span {
+    font-size: 27px;
+    color: #F0400F;
+}
+
+.welcome {
+    font-weight: bold;
+    color: #0E0D5D;
+    font-size: 64px;
+}
+
+.person {
+    border-radius: 10px;
+    height: 50px;
+    width: 530px;
+    display: flex;
+    background-color: #F5F5F5;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.puple,
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.puple span,
+.parent span {
+    font-size: 20px;
+}
+
+.puple:hover,
+.parent:hover {
+    background-color: white;
+}
+
+input {
+    padding: 0 10px;
+    border: 1px solid rgba(128, 128, 128, 0.71);
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+}
+
+.mod {
+    width: 530px;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+.password {
+    border: 1px solid rgba(128, 128, 128, 0.71);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-password {
+    border: none;
+}
+
+.input-password:focus {
+    border: none;
+}
